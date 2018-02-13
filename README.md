@@ -8,6 +8,8 @@ Then pass mapped key-value pair into specific topic and then finally perform gro
 You need to setup and start Kafka [using quickstart guide]("https://kafka.apache.org/quickstart")
 Don\`t forget to add `advertised.host.name= %your_vm_ip%` to `../config/server-properties` inside your virtual machine if you will run kafka from it 
 
+You need to manually create all specified topics before start in order to achieve proper run
+
 ## How to build it
 
 Simply run sbt with command
